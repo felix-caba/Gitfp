@@ -1,8 +1,6 @@
-package com.cosm.gitfp.lib.Security;
+package lib.Security;
 
-import java.util.Scanner;
-
-import com.cosm.gitfp.lib.Utils.ScannerKey;
+import lib.Utils.ScannerKey;
 
 public class EncryptionCredentials {
     public static String PASSWORD;

@@ -1,16 +1,16 @@
-package com.cosm.gitfp.lib.Factory;
+package lib.Factory;
 
 import java.io.IOException;
 
 import org.apache.commons.net.ftp.FTPClient;
 
-import com.cosm.gitfp.lib.Configurador;
-import com.cosm.gitfp.lib.Connection.FTPConnectionPool;
-import com.cosm.gitfp.lib.Handlers.EncryptedFileTransferHandler;
-import com.cosm.gitfp.lib.Handlers.StandardFileTransferHandler;
-import com.cosm.gitfp.lib.Interfaces.FileTransferHandler;
-import com.cosm.gitfp.lib.Security.EncryptionCredentials;
-import com.cosm.gitfp.lib.Utils.Logger;
+import lib.Configurador;
+import lib.Connection.FTPConnectionPool;
+import lib.Handlers.EncryptedFileTransferHandler;
+import lib.Handlers.StandardFileTransferHandler;
+import lib.Interfaces.FileTransferHandler;
+import lib.Security.EncryptionCredentials;
+import lib.Utils.Logger;
 
 /**
  * Fábrica para crear manejadores de transferencia de archivos

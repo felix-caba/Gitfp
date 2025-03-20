@@ -1,4 +1,4 @@
-package com.cosm.gitfp.lib.Enum;
+package lib.Enum;
 
 public enum LocalEvent {
     CREATE,

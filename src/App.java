@@ -1,4 +1,4 @@
-package com.cosm.gitfp;
+
 
 import java.util.InputMismatchException;
 import java.util.List;
@@ -10,12 +10,12 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import com.cosm.gitfp.lib.Configurador;
-import com.cosm.gitfp.lib.Connection.FileOperationService;
-import com.cosm.gitfp.lib.Factory.FileTransferFactory;
-import com.cosm.gitfp.lib.Jefazo;
-import com.cosm.gitfp.lib.Utils.Logger;
-import com.cosm.gitfp.lib.Utils.ScannerKey;
+import lib.Configurador;
+import lib.Connection.FileOperationService;
+import lib.Factory.FileTransferFactory;
+import lib.Jefazo;
+import lib.Utils.Logger;
+import lib.Utils.ScannerKey;
 
 public class App {
 

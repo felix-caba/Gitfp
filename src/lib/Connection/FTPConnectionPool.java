@@ -1,4 +1,4 @@
-package com.cosm.gitfp.lib.Connection;
+package lib.Connection;
 
 import java.io.IOException;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -8,9 +8,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import org.apache.commons.net.ftp.FTPClient;
 
-import com.cosm.gitfp.lib.Configurador;
-import com.cosm.gitfp.lib.Factory.FileTransferFactory;
-import com.cosm.gitfp.lib.Utils.Logger;
+import lib.Configurador;
+import lib.Factory.FileTransferFactory;
+import lib.Utils.Logger;
 
 public class FTPConnectionPool {
 

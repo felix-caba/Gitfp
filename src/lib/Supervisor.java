@@ -1,12 +1,12 @@
-package com.cosm.gitfp.lib;
+package lib;
 
 import java.nio.file.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.cosm.gitfp.lib.Enum.LocalEvent;
-import com.cosm.gitfp.lib.Interfaces.FileEventListener;
-import com.cosm.gitfp.lib.Utils.Logger;
+import lib.Enum.LocalEvent;
+import lib.Interfaces.FileEventListener;
+import lib.Utils.Logger;
 
 import static java.nio.file.StandardWatchEventKinds.*;
 import java.io.IOException;

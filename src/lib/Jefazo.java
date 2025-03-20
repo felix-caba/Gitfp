@@ -1,12 +1,12 @@
-package com.cosm.gitfp.lib;
+package lib;
 
 import java.io.File;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import com.cosm.gitfp.lib.Enum.LocalEvent;
-import com.cosm.gitfp.lib.Utils.Logger;
+import lib.Enum.LocalEvent;
+import lib.Utils.Logger;
 
 /**
  * Jefazo: This class is in charge of managing the events that are going to be

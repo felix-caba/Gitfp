@@ -1,12 +1,14 @@
-package com.cosm.gitfp.lib;
+package lib;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import com.cosm.gitfp.lib.Security.EncryptionCredentials;
-import com.cosm.gitfp.lib.Utils.Logger;
+import lib.Security.EncryptionCredentials;
+import lib.Utils.Logger;
+
+
 
 public class Configurador {
 

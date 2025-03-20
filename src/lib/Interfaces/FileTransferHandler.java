@@ -1,4 +1,4 @@
-package com.cosm.gitfp.lib.Interfaces;
+package lib.Interfaces;
 
 import java.io.File;
 import java.io.IOException;

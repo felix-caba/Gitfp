@@ -1,4 +1,4 @@
-package com.cosm.gitfp.lib.Utils;
+package lib.Utils;
 
 import java.io.IOException;
 import java.util.logging.FileHandler;

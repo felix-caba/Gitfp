@@ -1,19 +1,18 @@
-package com.cosm.gitfp.lib.Connection;
+package lib.Connection;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.List;
 
-import com.cosm.gitfp.lib.Configurador;
-import com.cosm.gitfp.lib.Factory.FileTransferFactory;
-import com.cosm.gitfp.lib.Interfaces.FileTransferHandler;
-import com.cosm.gitfp.lib.Security.CrossAppEncryption;
-import com.cosm.gitfp.lib.Security.EncryptionCredentials;
-import com.cosm.gitfp.lib.Utils.Logger;
+import lib.Configurador;
+import lib.Factory.FileTransferFactory;
+import lib.Interfaces.FileTransferHandler;
+import lib.Security.CrossAppEncryption;
+import lib.Security.EncryptionCredentials;
+import lib.Utils.Logger;
 
 public class FileOperationService {
     private FileTransferHandler transferHandler;

@@ -1,10 +1,10 @@
-package com.cosm.gitfp.lib;
+package lib;
 
 import java.io.File;
 import java.nio.file.Path;
 
-import com.cosm.gitfp.lib.Enum.LocalEvent;
-import com.cosm.gitfp.lib.Interfaces.FileEventListener;
+import lib.Enum.LocalEvent;
+import lib.Interfaces.FileEventListener;
 
 
 /**

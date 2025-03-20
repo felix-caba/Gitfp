@@ -1,4 +1,4 @@
-package com.cosm.gitfp.lib.Handlers;
+package lib.Handlers;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,10 +12,10 @@ import java.util.List;
 
 import org.apache.commons.net.ftp.FTPClient;
 
-import com.cosm.gitfp.lib.Connection.FTPConnectionPool;
-import com.cosm.gitfp.lib.Factory.FileTransferFactory;
-import com.cosm.gitfp.lib.Interfaces.FileTransferHandler;
-import com.cosm.gitfp.lib.Utils.Logger;
+import lib.Connection.FTPConnectionPool;
+import lib.Factory.FileTransferFactory;
+import lib.Interfaces.FileTransferHandler;
+import lib.Utils.Logger;
 
 /**
  * Implementación estándar para transferir archivos sin encriptación

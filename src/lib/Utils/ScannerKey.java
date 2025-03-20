@@ -1,4 +1,4 @@
-package com.cosm.gitfp.lib.Utils;
+package lib.Utils;
 
 import java.util.Scanner;
 

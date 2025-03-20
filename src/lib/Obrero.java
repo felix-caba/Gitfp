@@ -1,18 +1,18 @@
+package lib;
 
-package com.cosm.gitfp.lib;
 import java.io.File;
 
-import com.cosm.gitfp.lib.Enum.LocalEvent;
+import lib.Enum.LocalEvent;
 
-import com.cosm.gitfp.lib.Factory.FileTransferFactory;
+import lib.Factory.FileTransferFactory;
 
 import java.io.IOException;
 import java.nio.file.Paths;
 
 import org.apache.commons.net.ftp.FTPClient;
 
-import com.cosm.gitfp.lib.Utils.Logger;
-import com.cosm.gitfp.lib.Interfaces.FileTransferHandler;
+import lib.Utils.Logger;
+import lib.Interfaces.FileTransferHandler;
 
 public class Obrero implements Runnable {
 
