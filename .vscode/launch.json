@@ -12,7 +12,7 @@
         },
         {
             "type": "java",
-            "name": "App",
+            "name": "Appd",
             "request": "launch",
             "mainClass": "com.cosm.gitfp.App",
             "projectName": "gitfp"

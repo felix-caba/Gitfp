@@ -36,6 +36,8 @@ public class App {
             Logger.error("Error al inicializar sistemas de archivos: " + e.getMessage());
             System.exit(1);
         }
+        
+        
 
         boolean running = true;
 
